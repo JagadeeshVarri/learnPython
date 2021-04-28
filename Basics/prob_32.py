@@ -6,7 +6,7 @@ def lcm(value1,value2):
         greater=value1
     else:
         greater = value2
-
+        
     while True:
         if ((greater%value1==0) and (greater%value2==0)):
             lcm = greater
